@@ -1,20 +1,21 @@
 import "./App.css";
-import Chatbox from "./components/Chatbox";
-import HeroSection from "./components/Herosection";
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Faq from "./pages/Faq"; 
 import Navbar from "./components/Navbar";
-import PartnersSection from "./components/PartnersSection";
-import ServicesSection from "./components/ServicesSection";
+import Home from "./pages/Home";
 
-function App() {
+const App = () => {
   return (
-    <div className="flex flex-col">
+    <Router>
       <Navbar />
-      <HeroSection />
-      <Chatbox/>
-      <PartnersSection/>
-      <ServicesSection/>
-    </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/faq" element={<Faq />} />
+      </Routes>
+    </Router>
   );
-}
+};
 
 export default App;
+
