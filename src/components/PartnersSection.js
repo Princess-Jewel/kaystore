@@ -11,32 +11,28 @@ const PartnersSection = () => {
       <div className="container mx-auto text-center">
         {/* Heading */}
         <h1 className="text-[1.5rem] md:text-[2.7rem] font-custom1 mb-16">
-        Meet some of our trusted partners
+          Meet some of our trusted partners
         </h1>
 
         {/* Images */}
-        <div className="flex flex-wrap justify-center items-center gap-6">
+        <div className="flex flex-wrap md:flex-row flex-col justify-center items-center gap-6">
           <div className="w-[182.16px] h-[82.36px]">
             <img src={img1} alt="Partner 1" className="w-full h-full" />
           </div>
 
           <div className="w-[193.33px] h-[66.06px]">
-            {" "}
             <img src={img2} alt="Partner 2" className="w-full h-full" />
           </div>
 
           <div className="w-[140.92px] h-[75.97px]">
-            {" "}
             <img src={img3} alt="Partner 3" className="w-full h-full" />
           </div>
 
           <div className="w-[177.01px] h-[65.4px]">
-            {" "}
             <img src={img4} alt="Partner 4" className="w-full h-full" />
           </div>
 
           <div className="w-[158.1px] h-[62.36px]">
-            {" "}
             <img src={img5} alt="Partner 5" className="w-full h-full" />
           </div>
         </div>
