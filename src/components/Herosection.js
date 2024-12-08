@@ -4,7 +4,7 @@ import hero from "../assets/images/hero.svg";
 const HeroSection = () => {
   return (
     <section className="min-h-screen bg-black text-white flex items-center">
-      <div className="container mx-auto flex flex-col md:flex-row items-center px-6 py-20 gap-6 ">
+      <div className="container mx-auto flex flex-col md:flex-row items-center px-4 py-20 gap-6 ">
         {/* Left Side */}
         <div className="flex-1">
           <h1 className="text-4xl md:text-6xl font-custom1  mb-6">
