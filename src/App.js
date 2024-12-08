@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Faq from "./pages/Faq"; 
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
+import Chatbox from "./components/Chatbox";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/faq" element={<Faq />} />
       </Routes>
+      <Chatbox/>
     </Router>
   );
 };

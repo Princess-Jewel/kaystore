@@ -22,14 +22,15 @@ const Navbar = () => {
         className="md:hidden flex items-center cursor-pointer"
         onClick={toggleMenu}
       >
-       
-
-
-        {isMenuOpen ? <div className=" text-[24px] text-white font-medium">X</div>:  <div className="w-6 h-6 flex flex-col justify-between">
-          <span className="block w-full h-[3px] bg-white"></span>
-          <span className="block w-full h-[3px] bg-white"></span>
-          <span className="block w-full h-[3px] bg-white"></span>
-        </div>}
+        {isMenuOpen ? (
+          <div className=" text-[24px] text-white font-medium">X</div>
+        ) : (
+          <div className="w-6 h-6 flex flex-col justify-between">
+            <span className="block w-full h-[3px] bg-white"></span>
+            <span className="block w-full h-[3px] bg-white"></span>
+            <span className="block w-full h-[3px] bg-white"></span>
+          </div>
+        )}
       </div>
 
       {/* Navigation Links (Desktop View) */}
