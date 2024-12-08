@@ -9,7 +9,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="flex justify-between items-center px-6 py-4 bg-[#171717] shadow-md relative">
+    <nav className="flex justify-between items-center px-6 py-4 bg-[#171717] shadow-md relative z-50">
       {/* Logo */}
       <div className="flex items-center space-x-2 cursor-pointer">
         <a href="/">
@@ -78,7 +78,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="absolute top-full left-0 w-full bg-black shadow-md md:hidden">
+        <div className="absolute top-full left-0 w-full bg-black shadow-md md:hidden z-50">
           <ul className="flex flex-col space-y-4 py-4 px-6 text-white font-custom5 text-lg">
             <li>
               <a
