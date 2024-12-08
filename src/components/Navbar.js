@@ -42,7 +42,7 @@ const Navbar = () => {
         </li>
         <li>
           <a
-            href="/pricing"
+            href="/"
             className="hover:text-[#F47820] active:text-[#F47820] transition"
           >
             Pricing
@@ -50,7 +50,7 @@ const Navbar = () => {
         </li>
         <li>
           <a
-            href="/about"
+            href="/"
             className="hover:text-[#F47820] active:text-[#F47820] transition"
           >
             About
