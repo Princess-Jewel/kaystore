@@ -7,7 +7,7 @@ import img2 from "../assets/images/image 17.svg";
 
 const PartnersSection = () => {
   return (
-    <section className="bg-[#F0F2F6] py-28">
+    <section className="bg-[#F0F2F6] py-28 px-6">
       <div className="container mx-auto text-center">
         {/* Heading */}
         <h1 className="text-[1.5rem] md:text-[2.7rem] font-custom1 mb-16">
