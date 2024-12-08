@@ -6,7 +6,7 @@ import serviceIcon3 from "../assets/images/Frame 2147223584.svg";
 
 const ServicesSection = () => {
   return (
-    <section className="bg-white py-28 px-6">
+    <section className="bg-white py-28 px-4">
       <div className="container mx-auto text-center">
         {/* Heading */}
         <h1 className="text-[1.5rem] md:text-[2.7rem] font-custom1 mb-16">Our Services</h1>
