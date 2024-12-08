@@ -9,7 +9,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="flex justify-between items-center px-6 py-4 bg-black shadow-md relative">
+    <nav className="flex justify-between items-center px-6 py-4 bg-[#171717] shadow-md relative">
       {/* Logo */}
       <div className="flex items-center space-x-2 cursor-pointer">
         <a href="/">
@@ -78,7 +78,7 @@ const Navbar = () => {
       {/* Mobile Menu */}
       {isMenuOpen && (
         <div className="absolute top-full left-0 w-full bg-black shadow-md md:hidden">
-          <ul className="flex flex-col space-y-4 py-4 px-6 text-white font-medium text-lg">
+          <ul className="flex flex-col space-y-4 py-4 px-6 text-white font-custom5 text-lg">
             <li>
               <a
                 href="/"
@@ -117,10 +117,10 @@ const Navbar = () => {
             </li>
           </ul>
           <div className="flex flex-col space-y-4 px-6 pb-4">
-            <button className="bg-[#F47820] text-white py-2 px-4 rounded-[10px] hover:bg-white hover:text-[#F47820] transition font-medium text-lg">
+            <button className="bg-[#F47820] text-white py-2 px-4 rounded-[10px] hover:bg-white hover:text-[#F47820] transition font-custom5 text-lg">
               Sign Up
             </button>
-            <button className="bg-white text-black py-2 px-4 rounded-[10px] hover:bg-[#F47820] hover:text-white transition font-medium text-lg">
+            <button className="bg-white text-black py-2 px-4 rounded-[10px] hover:bg-[#F47820] hover:text-white transition font-custom5 text-lg">
               Request a Demo
             </button>
           </div>

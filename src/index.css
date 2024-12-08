@@ -1,3 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "Custom-1";
+    src: url("./assets/fonts/Satoshi-Bold.ttf");
+  }
+  
+  @font-face {
+    font-family: "Custom-2";
+    src: url("./assets/fonts/Satoshi-Black.ttf");
+  }
+
+  @font-face {
+    font-family: "Custom-3";
+    src: url("./assets/fonts/Satoshi-Light.ttf");
+  }
+
+  @font-face {
+    font-family: "Custom-4";
+    src: url("./assets/fonts/Satoshi-Medium.ttf");
+  }
+
+  @font-face {
+    font-family: "Custom-5";
+    src: url("./assets/fonts/Satoshi-Regular.ttf");
+  }
+
+  @font-face {
+    font-family: "Custom-6";
+    src: url("./assets/fonts/Satoshi-Variable.ttf");
+  }

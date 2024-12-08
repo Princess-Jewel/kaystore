@@ -3,15 +3,15 @@ import hero from "../assets/images/hero.svg";
 
 const HeroSection = () => {
   return (
-    <section className="flex-1 bg-black text-white flex items-center">
-      <div className="container mx-auto flex flex-col md:flex-row items-center px-6 py-20 gap-y-6 md:gap-0">
+    <section className="min-h-screen bg-black text-white flex items-center">
+      <div className="container mx-auto flex flex-col md:flex-row items-center px-6 py-20 gap-6 ">
         {/* Left Side */}
         <div className="flex-1">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6">
-            Streamline Your Business Procurement{" "}
-            <span className="text-[#F47820]">Process</span>
+          <h1 className="text-4xl md:text-6xl font-custom1  mb-6">
+            Streamline Your Business Procurement
+            <span className="text-[#F47820]"> Process</span>
           </h1>
-          <button className="bg-[#F47820] text-white py-3 px-6 rounded-md text-lg hover:bg-white hover:text-[#F47820] transition">
+          <button className="bg-[#F47820] font-custom1 text-white py-3 px-6 rounded-md text-lg hover:bg-white hover:text-[#F47820] transition">
             Start Shopping
           </button>
         </div>
