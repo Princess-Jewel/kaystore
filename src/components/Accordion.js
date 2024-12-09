@@ -10,30 +10,26 @@ const FAQAccordion = () => {
 
   const faqs = [
     {
-      question: "How do i register on kaystore?",
-      answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      question: "What can Kaystore chatbot help me with?",
+      answer: "The Kaystore chatbot can assist with tasks like order tracking, editing your orders, and answering frequently asked questions about our services. It's designed to streamline your experience on our platform and provide instant support.",
     },
     {
-      question: "How do i buy on kaystore platform?",
+      question: "How do I access the Kaystore chatbot?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "You can access the Kaystore chatbot by clicking the chat icon located in the bottom-right corner of any page on our website. It's available 24/7 to assist you.",
     },
     {
-      question: "How do i place orders on kaystore?",
-      answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      question: "Can the Kaystore chatbot handle bulk order requests?",
+      answer: "Yes, the Kaystore chatbot can guide you through the bulk order process. Simply type 'bulk order' and it will ask for details like product categories, quantities, and delivery preferences. It can also connect you with a sales representative if needed.",
     },
     {
-      question: "How do i check prices on kaystore?",
-      answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      question: " Is the Kaystore chatbot available after business hours?",
+      answer: "Absolutely! Our Kaystore chatbot operates 24/7. While it can handle most inquiries at any time, if a question requires human intervention, it will forward your request to our support team, who will respond during business hours.",
     },
     {
-      question: "How can i track my order on kaystore?",
-      answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    },
-    {
-      question: "How is the delivery and payment mode of kaystore?",
-      answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    },
+      question: "Is my information secure when using the Kaystore chatbot?",
+      answer: "Yes, your privacy and data security are our top priorities. The Kaystore chatbot is integrated with secure systems and adheres to strict data protection standards to ensure your information is safe.",
+    }
   ];
 
   return (
