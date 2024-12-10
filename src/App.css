@@ -1,38 +1,28 @@
-.App {
-  text-align: center;
+
+.cs-message__content{
+  background-color: #F47820!important;
+  border-radius: 10px!important;
+  color: #fff!important;
+}
+.cs-message-list,
+.cs-message-input{
+  background-color: #F0F2F6!important;
+}
+.cs-message-input__content-editor-wrapper,
+.cs-message-input__content-editor{
+  background-color: #fff!important;
+  color:#7B7878!important;
+}
+.scrollbar-container.cs-message-list__scroll-wrapper.ps > section:nth-child(n){
+  max-width: 100%!important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.cs-message-input > div:nth-child(1) > button{
+  display: none!important;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.cs-message-input__content-editor-wrapper{
+  margin-left: 15px!important;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mx-auto.chat-container > div > div{
+  flex-basis: 0!important;
 }
