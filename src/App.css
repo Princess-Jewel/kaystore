@@ -17,12 +17,12 @@
   max-width: 100%!important;
 }
 
-/* .cs-message-input > div:nth-child(1) > button{
+.cs-message-input > div:nth-child(1) > button{
   display: none!important;
-} */
-/* .cs-message-input__content-editor-wrapper{
+}
+.cs-message-input__content-editor-wrapper{
   margin-left: 15px!important;
-} */
+}
 .mx-auto.chat-container > div > div{
   flex-basis: 0!important;
 }
