@@ -11,31 +11,10 @@ const Chatbox = () => {
   };
 
   return (
-    <div className="fixed bottom-8 right-2 flex flex-col items-end">
+    <div className="fixed lg:bottom-8 bottom-0 right-2 flex flex-col items-end z-50">
       {/* Chat Modal */}
       {isChatOpen && (
         <ChatModel />
-        // <div className="bg-white text-black w-[300px] h-[400px] rounded-lg shadow-lg flex flex-col p-4 absolute bottom-[100px] right-0">
-        //   <div className="flex justify-between items-center pb-2 border-b">
-        //     <h3 className="font-bold text-lg">Chat With Us</h3>
-        //     <button
-        //       onClick={toggleChatModal}
-        //       className="text-lg font-bold cursor-pointer"
-        //     >
-        //       X
-        //     </button>
-        //   </div>
-        //   <div className="flex-1 mt-4 overflow-y-auto">
-        //     <p className="text-gray-600">Start a conversation...</p>
-        //   </div>
-        //   <div className="pt-2">
-        //     <input
-        //       type="text"
-        //       placeholder="Type your message..."
-        //       className="w-full p-2 border rounded-lg focus:outline-none focus:border-[#F47820]"
-        //     />
-        //   </div>
-        // </div>
       )}
 
       {/* Hover Text */}

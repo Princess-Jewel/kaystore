@@ -170,7 +170,7 @@ const ChatModel = () => {
   
     <div
     style={{ position: "relative"}}
-    className="lg:w-[700px] w-[95%] h-[600px] lg:h-[800px] rounded-[20px]"
+    className="lg:w-[700px] w-[95%] h-[400px] lg:h-[800px] rounded-[20px] z-50"
   >
         <MainContainer>
           <ChatContainer>
